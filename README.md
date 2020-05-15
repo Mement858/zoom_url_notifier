@@ -1,0 +1,2 @@
+# zoom_url_notifier
+utas上の講義zoomのURLを取ってきて、slackに表示する
