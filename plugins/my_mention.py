@@ -45,7 +45,7 @@ def mention_func(message):
     time.sleep(3)
 
     ########時間割コードを入れる########
-    driver.find_element_by_xpath("/html/body/div[2]/div/form/table[2]/tbody/tr[5]/td[3]/input").send_keys("FEN-AM3241L1")
+    driver.find_element_by_xpath("/html/body/div[2]/div/form/table[2]/tbody/tr[5]/td[3]/input").send_keys("時間割コード")
 
     driver.find_element_by_xpath("/html/body/div[2]/div/form/table[2]/tbody/tr[7]/td/p/input[1]").click()
 
